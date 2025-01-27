@@ -1,0 +1,108 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Project Page</title>
+  <style>
+    body {
+      font-family: Arial, sans-serif;
+      margin: 0;
+      padding: 0;
+      line-height: 1.6;
+    }
+    header {
+      background-color: #f4f4f4;
+      padding: 20px;
+      text-align: center;
+      border-bottom: 2px solid #ddd;
+    }
+    header h1 {
+      margin: 0;
+    }
+    main {
+      max-width: 768px;
+      margin: 20px auto;
+      padding: 0 20px;
+    }
+    section {
+      margin-bottom: 30px;
+    }
+    .gallery {
+      display: grid;
+      grid-template-columns: repeat(auto-fit, minmax(300px, 1fr));
+      gap: 20px;
+    }
+    .gallery img {
+      width: 100%;
+      border: 2px solid #ddd;
+      border-radius: 10px;
+      box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    }
+    .gallery img:hover {
+      transform: scale(1.02);
+      transition: transform 0.3s ease;
+    }
+    .details, .objectives, .skills {
+      background-color: #f9f9f9;
+      padding: 20px;
+      border: 1px solid #ddd;
+      border-radius: 10px;
+      box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    }
+    .details h2, .objectives h2, .skills h2 {
+      margin-top: 0;
+    }
+    ul {
+      padding-left: 20px;
+    }
+    footer {
+      text-align: center;
+      margin-top: 30px;
+      padding: 10px;
+      background-color: #f4f4f4;
+      border-top: 2px solid #ddd;
+    }
+  </style>
+</head>
+<body>
+  <header>
+    <h1>Project Name</h1>
+    <p>Date Created: [Insert Date]</p>
+  </header>
+  <main>
+    <section class="details">
+      <h2>Project Details</h2>
+      <p>This project was created to achieve [brief purpose or description of the project].</p>
+    </section>
+    <section class="objectives">
+      <h2>Project Objectives</h2>
+      <ul>
+        <li>[Objective 1]</li>
+        <li>[Objective 2]</li>
+        <li>[Objective 3]</li>
+      </ul>
+    </section>
+    <section class="skills">
+      <h2>Skills Utilized</h2>
+      <ul>
+        <li>[Skill 1]</li>
+        <li>[Skill 2]</li>
+        <li>[Skill 3]</li>
+      </ul>
+    </section>
+    <section class="gallery">
+      <h2>Gallery</h2>
+      <img src="/projects/traincar/train3.webp" alt="Image description">
+      <img src="/projects/traincar/traincad2.webp" alt="Image description">
+      <img src="/projects/traincar/trainsketch1.webp" alt="Image description">
+      <img src="/projects/traincar/trainsketch2.webp" alt="Image description">
+      <img src="/projects/traincar/traincad.webp" alt="Image description">
+
+    </section>
+  </main>
+  <footer>
+    <p>© [Your Name or Organization], [Year]</p>
+  </footer>
+</body>
+</html>
