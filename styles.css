@@ -65,6 +65,8 @@ p {
   font-size: 18px;
   line-height: 1.6;
   text-align: justify;
+  text-justify: inter-word; /* Makes spacing more uniform */
+  word-spacing: -0.1em;     /* Fine-tunes spacing between words */
   font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
   padding: 0 3rem;
 }
