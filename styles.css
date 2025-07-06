@@ -505,7 +505,7 @@ main nav ul li a {
   p {
     font-size: 16px;
     line-height: 1.6;
-    text-align: flex;
+    text-align: left;
   }
 
   header nav ul li {
@@ -526,8 +526,9 @@ main nav ul li a {
 
   /* About Pictures Style */
  .about {
-    max-width: 200px;
+    max-width: 80%;
     width: 100%;
+    margin: 1.5rem auto;
     height: auto;
   }
 
