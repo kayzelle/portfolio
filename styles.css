@@ -441,6 +441,13 @@ main nav ul li a {
   margin-bottom: 1rem;    /* Space between each image in project */
 }
 
+.slidesection video {
+  width: 90%;
+  height: auto;
+  border-radius: 15px;
+  margin-bottom: 2rem;    /* Space between each image in project */
+}
+
 .slidesectionsingle {
   display: flex;
   justify-content: center;
@@ -450,6 +457,13 @@ main nav ul li a {
   width: 90%;
   object-fit: cover;
   border-style: none;
+  border-radius: 15px;
+  margin-bottom: 2rem;    /* Space between each image in project */
+}
+
+.slidesectionsingle video {
+  width: 50%;
+  height: auto;
   border-radius: 15px;
   margin-bottom: 2rem;    /* Space between each image in project */
 }
